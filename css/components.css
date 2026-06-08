@@ -180,6 +180,36 @@ nav{
     flex: 1;
     max-width: 550px;
 }
+.hero-tag{
+    color: #550000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.hero-content h1{
+    font-size: 4rem;
+    color: #131418;
+    margin: 15px 0;
+    line-height: 1.1;
+    font-weight: 800;
+}
+.hero-content p{
+    color: #131418;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.hero-button{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn-primary,
+.btn-secondary{
+  text-decoration: none;
+  padding: 14px 28px;
+  font-weight: 600;
+}
 .hero-image{
     flex: 1;
 
