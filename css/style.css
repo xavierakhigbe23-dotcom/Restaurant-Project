@@ -207,3 +207,91 @@
     text-decoration: none;
     font-weight: 600;
 }
+
+/* Footer styles */
+.footer{
+    background-color: #222;
+    color: #eee;
+    padding: 60px 5% 30px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.footer-section{
+    flex: 1 1 220px;
+    min-width: 200px;
+}
+.footer-logo img{
+    width: 140px;
+    height: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+.footer-desc{
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+.social-icon{
+    display: inline-flex;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.06);
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+.social-icon:hover{background: #fff; color: #222; transform: translateY(-3px);}
+.footer-section h4{
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.footer-links,
+.footer-contact,
+.footer-hours{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #ccc;
+    font-size: 14px;
+}
+.footer-links li,
+.footer-contact li,
+.footer-hours li{margin-bottom: 8px}
+.footer-links a,
+.footer-contact a{color: #ccc; text-decoration: none}
+.footer-links a:hover,
+.footer-contact a:hover{color: #fff}
+.closed-info{color: #ffb3b3}
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin-top: 30px;
+    padding-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer-bottom p{margin:0; color:#bbb; font-size:13px}
+.footer-bottom-links{display:flex; gap:12px; list-style:none; margin:0; padding:0}
+.footer-bottom-links a{color:#bbb; text-decoration:none; font-size:13px}
+.footer-bottom-links a:hover{color:#fff}
+
+@media (max-width:900px){
+    .footer-container{flex-direction:column}
+    .story, .features, .menu, .reservation{padding-left:5%; padding-right:5%}
+}
+
+
